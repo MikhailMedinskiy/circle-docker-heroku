@@ -4,6 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+
+  console.log(process.env.NEXT_PUBLIC_TEST)
+  console.log(process.env.NEXT_PUBLIC_IS_TRUE)
   return (
     <div className={styles.container}>
       <Head>
@@ -16,6 +19,11 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <div>
+          123123sf s {s}
+        </div>
+
 
         <p className={styles.description}>
           Get started by editing{' '}
