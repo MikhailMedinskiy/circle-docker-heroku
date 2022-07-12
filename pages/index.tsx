@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          THIS is PULL request
+          {process.env.NEXT_PUBLIC_TEST}
         </h1>
 
         <p className={styles.description}>
